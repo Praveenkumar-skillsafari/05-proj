@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+}
+.container {
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 50px auto;
+  width: 450px;
+  min-height: 400px;
+  padding: 10px 20px 50px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li* {
+  float: left;
+}
+li {
+  list-style: none;
+  clear: both;
+}
+
+button {
+  outline: none;
+  border: 0;
+  background: none;
+  font-size: 15px;
+  width: 60px;
+  margin-top: 10px;
+  color: gray;
+  cursor: pointer;
+}
+button {
+  float: right;
+}
+button:hover {
+  color: black;
+}
+
+li input[type="checkbox"] {
+  margin: 0 10px;
+}
+#dlt-btn:hover {
+  color: red;
+}
